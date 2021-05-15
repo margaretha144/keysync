@@ -13,7 +13,7 @@ sighandler(int signo) {
 int
 main() {
     term_setup(sighandler);
-
+    
     while (!end) {
         if (kbhit()) {
             if (keydown(UP))
