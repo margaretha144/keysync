@@ -16,16 +16,16 @@ main() {
     
     while (!end) {
         if (kbhit()) {
-            if (keydown(UP))
-                printf("This is \"UP\" button!\n");
-            if (keydown(DOWN))
-                printf("This is \"DOWN\" button!\n");
-            if (keydown(LEFT))
-                printf("This is \"LEFT\" button!\n");
-            if (keydown(RIGHT))
-                printf("This is \"RIGHT\" button!\n");
-            if (keydown(W))
-                printf("This is \"W\" button!\n");
+			if (keydown(UP))
+				printf("This is \"UP\" button!\n");
+			if (keydown(DOWN))
+				printf("This is \"DOWN\" button!\n");
+			if (keydown(LEFT))
+				printf("This is \"LEFT\" button!\n");
+			if (keydown(RIGHT))
+				printf("This is \"RIGHT\" button!\n");
+			if (keydown(W))
+				printf("This is \"W\" button!\n");
 			if (keydown(S))
 				printf("This is \"S\" button!\n");
 			if (keydown(A))
